@@ -13,6 +13,11 @@ html {
     color: #fff;
     font-family: sans-serif;
 }
+p {
+    font-size: 10px;
+    color: #000;
+    font-family: sans-serif;
+}
 /*.......................................*/
 nav {
     height: 3.2em;
@@ -55,40 +60,44 @@ nav {
     text-align: center;
 }
 /*.......................................*/
-.sectionOne {
-    height: 18em;
+.contentArea {
+    height: 100%;
     background: #fff;
+}
+.sectionOne {
+    /* background: #fff; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* padding: 4%; */
 }
 .sectionOneBox {
-    height: 75%;
+    height: 15em;
     width: 25%;
     background: #a4ffd6;
     border-radius: 8%; 
-    margin: 5%;
+    margin: 3em;
 }
 .sectionTwoBox {
-    height: 75%;
+    height: 15em;
     width: 50%;
     background: #fec36c;
-    margin: 5%;
+    margin: 3em;
 }
 .sectionThreeL {
-    height: 75%;
     width: 50%;
-    background: #fec36c;
-    margin: 5%;
+    margin: 3em;
 }
 .sectionThreeR {
-    height: 75%;
     width: 50%;
-    margin: 5%;
+    margin: 3em;
 }
 .sectionThreeR img {
     max-width: 100%;
     height: auto;
+}
+/*.......................................*/
+footer {
+    height: 8em;
+    background: #3a3b56;
 }
 
